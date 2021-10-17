@@ -1,0 +1,22 @@
+.widget-bar{
+	width: calc(var(--widget-bar-width) - var(--gap));
+	inset-inline-start: 0;
+	border-radius: 0 10px 10px 0;
+	padding-block: 10px;
+	background-color: var(--bs-gray-dark);
+}
+
+.area{
+	position: absolute;
+	inset-block: var(--gap);
+}
+
+.property-bar{
+	width: calc(var(--property-bar-width) - var(--gap));
+	right: 0;
+	border-radius: 10px 0 0 10px;
+}
+.widget-bar > .box1{
+	width: 70px;
+	height: 70px;
+}
